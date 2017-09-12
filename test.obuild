@@ -1,0 +1,11 @@
+Name:       test
+Version:    1.0
+Authors:    Francois Berenger
+License:    GPL
+Synopsis:   bench for BatString.starts_with
+obuild-ver: 1
+
+Executable test
+  Path:         .
+  BuildDepends: batteries, containers, cryptokit, bench, unix
+  MainIs:       test.ml
