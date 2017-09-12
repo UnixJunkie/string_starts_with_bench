@@ -1,0 +1,22 @@
+Measuring: System Clock
+Warming up
+Estimating clock resolution (1.23 us)
+Estimating cost of timer call (35.50 ns)
+Benchmarking: containers
+Ran 1 iterations in 8.38 ms
+Collecting 1000 samples, 1 iterations each, estimated time: 8.38 s
+N: 1000 Inter-quartile width:464.98 us, Full range: (8.01 ms,11.60 ms)
+Outliers: 11 (1.1%) High Mild, 3 (0.3%) High Severe,
+mean: 8.31 ms, 95% CI: (8.28 ms, 8.33 ms)
+std.dev.: 367.47 us, 95% CI: (322.88 us, 403.42 us)
+
+Benchmarking: batteries
+Ran 1 iterations in 8.19 ms
+Collecting 1000 samples, 1 iterations each, estimated time: 8.19 s
+N: 1000 Inter-quartile width:27.00 us, Full range: (5.55 ms,12.37 ms)
+Outliers: 27 (2.7%) Low Mild, 211 (21.1%) High Severe,
+mean: 5.96 ms, 95% CI: (5.89 ms, 6.00 ms)
+std.dev.: 875.46 us, 95% CI: (752.99 us, 943.71 us)
+
+batteries (5.96 ms) is 28.3% faster than
+containers (8.31 ms)
